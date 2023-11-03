@@ -1,0 +1,95 @@
+<html>
+<head>
+<title>REGISTRATION FORM</title>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head><style>
+h1{
+color:red;
+font-size:50;
+}
+body
+{
+border:20px solid black;
+background-color:skyblue;
+padding:40px;
+margin:50px;
+}
+</style>
+<center>
+<h1>REGISTRATION FORM</h1>
+</center>
+<center><body bgcolor=	skyblue>
+<label>User Name</label>
+<input type="text" name="username"  size="30" maxlength="50">
+<br>
+<br>
+<label> Password</label> 
+
+<input type="Password">
+<br>
+<br>
+
+<label> E-mail</label> 
+
+<input type="email" name="E-mail">
+
+<br>
+<br>
+<label>number</label>
+<input type="number" min="1" max="10" ><br>
+<br><br>
+<label>Date</label><input type="date" id="datereturn">
+<label>Time </label><input type="Time" name ="time"id="time">
+<label>Month </label><input type="month" name ="month"> 
+<label>year </label><input type="year" name ="year"> 
+
+<label>datalist</label>
+<input id="move" list="game">
+
+ 
+<datalist id="game">
+
+<option value="rock1">
+<option value="rock2">
+<option value="rock3">
+<option value="rock4">
+</datalist>
+<br> <br>
+<label>select the game
+<select name='GAMEOPTION'>
+
+<option>monkey bubble
+<option>tresure hut
+<option>snake and ladder
+</select>
+</label>
+<br><br>
+<p> check all list</P>
+<label><input type='checkbox' name='symptons' value='fever'>fever</label>
+<label><input type='checkbox' name='symptons' value='headache'>headache</label>
+<label><input type='checkbox' name='symptons' value='bodypain'>bodypain</label>
+<label><input type='checkbox' name='symptons' value='vomitting'>vomitting</label>
+<label><input type='checkbox' name='symptons' value='running nose'>running nose</label>
+<br><br>
+<p> pic  a status </P>
+<label style='display:block;'><input type='radio' name='stastus' value='LP'>LP</label><br><br>
+<label style='display:block;'><input type='radio' name='stastus' value='UP'>UP</label><br><br>
+<label style='display:block;'><input type='radio' name='stastus' value='H.S'>H.S</label><br><br>
+<label style='display:block;'><input type='radio' name='stastus' value='H.S.S'>H.S.S</label><br><br>
+<label style='display:block;'><input type='radio' name='stastus' value='UG'>UG</label><br><br>
+<label style='display:block;'><input type='radio' name='stastus' value='PG'>PG</label><br><br>
+<br><br>
+
+
+<input type="submit" value="submit">
+<br>
+<br>
+<br>
+<input type="reset" value='reset' >
+
+
+
+</form>
+</center>
+</body>
+</html>
